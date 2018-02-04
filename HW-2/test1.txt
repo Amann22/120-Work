@@ -1,0 +1,12 @@
+Name: AiDaN Mann
+Date: Jan 29th, 2017
+
+This is my fist text file.
+
+
+I added a new line to this file
+
+
+AiDaN
+
+Mann
