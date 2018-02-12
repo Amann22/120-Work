@@ -1,12 +1,12 @@
 function setup() {
-    createCanvas(500,350);
+    createCanvas(900,400);
 }
 
 function draw() {
 
     fill('blue');
-    rect( 20, 20, 480, 50 );
-    ellipse( 250, 105, 400, 50 );
+    rect( 60, 30, 780, 370, 50, 50, 0, 0 );
+
 
     fill('yellow');
     ellipse( 250, 160, 300, 50 );
