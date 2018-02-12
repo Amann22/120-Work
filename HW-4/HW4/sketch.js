@@ -6,11 +6,11 @@ function setup() {
 function draw() {
 
     fill('salmon');
-    rect( 60, 30, 780, 370, 50, 50, 0, 0 );
+    rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
 
-    fill('yellow');
-    ellipse( 250, 160, 300, 50 );
+    fill('white');
+    ellipse( 370, 300, 300, 60 );
 
     fill('orange');
     triangle( 20, 205, 250, 255, 480, 255 );
