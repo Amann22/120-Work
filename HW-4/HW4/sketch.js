@@ -7,5 +7,5 @@ function setup() {
 
 //face shape
 function draw(){
-  Rect(60,30,780,370,50,50,0,0)
+  Rect(60,30,780,370,50,50,0,0);
 }
