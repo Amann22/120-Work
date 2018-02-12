@@ -1,10 +1,11 @@
 function setup() {
     createCanvas(900,400);
+    Background('grey')
 }
 
 function draw() {
 
-    fill('blue');
+    fill('salmon');
     rect( 60, 30, 780, 370, 50, 50, 0, 0 );
 
 
