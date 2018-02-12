@@ -6,6 +6,9 @@ function setup() {
 }
 
 //face shape
-function draw(){
+function draw() {
+  Rect(60,30,780,370,50,50,0,0);
+}
+Function draw(){
   Rect(60,30,780,370,50,50,0,0);
 }
