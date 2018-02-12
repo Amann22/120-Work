@@ -4,6 +4,7 @@ function setup() {
     background( 'grey' );
 }
 
-function draw() {
+function draw(
   Ellipse( 10, 10, 16, 16 )
-}
+)
+  
