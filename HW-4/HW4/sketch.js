@@ -1,10 +1,6 @@
 function setup() {
 
-    createCanvas( 900, 200 );
+    createCanvas( 900, 900 );
 
-    background( 'salmon' );
-}
-
-function draw(){
-  text("Hello World!", 450, 100);
+    background( 'light grey' );
 }
