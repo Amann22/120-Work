@@ -8,9 +8,11 @@ function draw() {
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
+//mouth
     fill('white');
     ellipse( 370, 300, 300, 60 );
 
+//eyes
     fill('black');
     rect( 700, 150, 100, 100, 90, 0, 150, 45 );
     rect( 400, 150, 100, 100, 90, 0 ,150, 45 );
