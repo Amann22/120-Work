@@ -27,8 +27,3 @@ function draw() {
 
 
 }
-function draw() {
-
-  nofill();
-  ellipse(420,300,80, 20);
-}
