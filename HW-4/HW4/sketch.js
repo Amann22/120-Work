@@ -8,6 +8,10 @@ function draw() {
     fill('violet');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
+//ears
+    fill('purple');
+    arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
+
 
 //mouth
     fill('white');
@@ -28,10 +32,5 @@ function draw() {
 
     nofill();
     ellipse(420,300,80, 20);
-
-    //ears
-    fill('purple');
-    arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
-
 
 }
