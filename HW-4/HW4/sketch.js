@@ -18,7 +18,7 @@ function draw() {
     rect( 500, 150, 100, 100, 90, 10);
 
     fill('white');
-    arc(330,170,20,20, half_pi, 0, chord);
+    arc(330,170,20,20,);
 
 
 //nose
