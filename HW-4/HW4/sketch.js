@@ -10,6 +10,7 @@ function draw() {
 
 //ears
     fill('purple');
+    rotate( radians(30));
     arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
 
 
