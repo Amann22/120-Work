@@ -17,14 +17,13 @@ function draw() {
     rect( 300, 150, 100, 100, 90, 10 );
     rect( 500, 150, 100, 100, 90, 10);
 
-    fill('white');
-    arc(330,170,20,20,);
-
-
 //nose
     fill('black');
     ellipse(430,300, 30, 10);
     ellipse(470,300, 30,10);
+
+    nofill();
+    ellipse(420,300,80, 20);
 
 
 }
