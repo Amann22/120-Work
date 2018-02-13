@@ -19,7 +19,7 @@ function draw() {
     rect( 500, 150, 100, 100, 90, 10);
 
     noFill();
-    ellipse(420,300,100, 30);
+    ellipse(425,300,100, 30);
 
 //nose
     fill('black');
