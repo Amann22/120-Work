@@ -12,6 +12,8 @@ function draw() {
     fill('white');
     ellipse( 400, 350, 300, 60 );
     line(250 ,350, 550, 350);
+    line(350,340,350,360);
+    line(550,340,550,360);
 
 //eyes
     fill('black');
