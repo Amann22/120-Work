@@ -23,9 +23,9 @@ function draw() {
     rect( 250, 150, 100, 100, 10, 90);
     rect( 600, 150, 100, 100, 10, 90);
 
-
     fill('white');
-    ellipse(260,150, 30,30);
+    ellipse(275,170, 80,80);
+    ellipse(625, 170, 80, 80);
 
     noFill();
     ellipse(440,300,100, 30);
