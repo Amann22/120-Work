@@ -27,16 +27,14 @@ function draw() {
     fill('white');
     ellipse(290,200, 80,80);
     ellipse(660, 200, 80, 80);
-
-    noFill();
-    ellipse(440,300,100, 30);
-
 //nose
+    noFill();
+    ellipse(455,385,100, 30);
+
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
 
-    nofill();
-    ellipse(465,280,80, 20);
+
 
 }
