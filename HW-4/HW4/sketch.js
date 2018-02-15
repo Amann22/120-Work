@@ -8,12 +8,10 @@ function draw() {
     fill('violet');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
-    //teeth
-        line(170 ,370, 550, 370);
-
 //mouth
     fill('white');
     ellipse( 400, 350, 300, 60 );
+    line(170 ,370, 550, 370);
 
 //eyes
     fill('black');
