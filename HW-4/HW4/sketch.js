@@ -21,7 +21,7 @@ function draw() {
 //eyes
     fill('black');
     rect( 300, 150, 100, 100, 10, 90);
-    rect( 500, 150, 100, 100, 90, 10);
+    rect( 500, 150, 100, 100, 10, 90);
 
 
     fill('white');
