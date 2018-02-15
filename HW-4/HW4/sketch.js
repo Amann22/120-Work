@@ -8,6 +8,10 @@ function draw() {
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
+    fill('purple');
+    rotate( radians(30));
+    arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
+
 //mouth
     fill('white');
     ellipse( 400, 350, 300, 60 );
