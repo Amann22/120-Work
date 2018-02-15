@@ -9,7 +9,7 @@ function draw() {
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
     //teeth
-        line(450,300, 500, 300);
+        line(250,350, 600, 300);
 
 //mouth
     fill('white');
