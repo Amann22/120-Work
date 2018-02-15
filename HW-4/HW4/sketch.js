@@ -7,6 +7,7 @@ function draw() {
 
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
+    ellipse(90,200, 100,200);
 
     line(110,50, 720,50);
     line(110,70, 720,70);
@@ -22,7 +23,6 @@ function draw() {
     line(500,340,500,360);
 
       fill('rgb(255,160,122)');
-    ellipse(90,200, 100,200);
     //hair
     ellipse(300,20, 80,120);
     ellipse(80,30, 80,130);
