@@ -55,8 +55,3 @@ function draw() {
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
 }
-
-function draw(){
-
-  line(450,450,490,490)
-}
