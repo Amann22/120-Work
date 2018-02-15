@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
 
-    fill('violet');
+    fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
 //mouth
@@ -20,8 +20,11 @@ function draw() {
 
 //eyes
     fill('black');
-    rect( 300, 150, 100, 100, 90, 10 );
-    rect( 500, 150, 100, 100, 90, 10);
+    rect( 300, 150, 100, 100, 10,30,60,20);
+    rect( 500, 150, 100, 100, 30,10,20,60);
+
+    fill('white');
+    ellipse();
 
     noFill();
     ellipse(440,300,100, 30);
