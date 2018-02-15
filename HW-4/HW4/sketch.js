@@ -26,15 +26,15 @@ function draw() {
     //hair
     ellipse(300,20, 80,120);
     ellipse(80,30, 80,130);
-    ellipse(150,50, 80,110);
-    ellipse(160,35, 75,120);
+    ellipse(160,50, 80,110);
+    ellipse(220,35, 75,120);
     ellipse(400,20, 90,100);
     ellipse(500,35, 89,130);
     ellipse(600,35, 78,100);
     ellipse(505,35, 89,110);
-    ellipse(650,35, 90,100);
+    ellipse(280,35, 90,100);
     ellipse(700,35, 89,120);
-    ellipse(730,35, 90,100);
+    ellipse(750,35, 90,100);
     ellipse(450,35, 78,120);
     ellipse(350,35, 89,111);
 
