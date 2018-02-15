@@ -21,11 +21,12 @@ function draw() {
     line(400,340,400,360);
     line(500,340,500,360);
 
-    {noStroke();
+    noStroke();
     fill('rgb(250,128,114)');
-    ellipse(90,200, 100,100);}
+    ellipse(90,200, 100,100);
 
 
+    strokeWeight(1);
 //eyes
     fill('black');
     rect( 250, 150, 100, 100, 10, 90);
