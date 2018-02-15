@@ -7,8 +7,7 @@ function draw() {
 
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
-
-    strokeweight(2);
+    
     line(110,50, 720,50);
     line(110,70, 720,70);
     line(120,90,710,90);
