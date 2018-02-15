@@ -1,13 +1,13 @@
 function setup() {
     createCanvas(900,400);
-    background('grey');
+    background('lavender');
 }
 
 function draw() {
 
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
-    
+
     line(110,50, 720,50);
     line(110,70, 720,70);
     line(120,90,710,90);
@@ -20,6 +20,9 @@ function draw() {
     line(300,340,300,360);
     line(400,340,400,360);
     line(500,340,500,360);
+
+    fill('rgb(250,128,114)');
+    ellipse(90,200, 100,100);
 
 
 //eyes
