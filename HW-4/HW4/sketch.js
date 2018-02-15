@@ -8,6 +8,8 @@ function draw() {
     fill('salmon');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
+    line(50,50, 680,50);
+    line(50,70, 680,70);
 
 //mouth
     fill('white');
@@ -34,7 +36,4 @@ function draw() {
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
-
-
-
 }
