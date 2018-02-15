@@ -25,8 +25,6 @@ function draw() {
     fill('black');
     rect( 250, 150, 100, 100, 10, 90);
     rect( 600, 150, 100, 100, 10, 90);
-    strokeWeight(4);
-    Line(240,160, 260,160);
 
 
     fill('white');
