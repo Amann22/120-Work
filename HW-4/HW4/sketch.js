@@ -33,11 +33,11 @@ function draw() {
 
 //nose
     fill('black');
-    ellipse(430,300, 30, 10);
-    ellipse(470,300, 30,10);
+    ellipse(440,290, 30, 10);
+    ellipse(480,290, 30,10);
 
     nofill();
-    ellipse(420,300,80, 20);
+    ellipse(450,290,80, 20);
 
 
 }
