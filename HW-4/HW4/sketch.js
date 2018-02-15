@@ -37,7 +37,6 @@ function draw() {
     ellipse(480,290, 30,10);
 
     nofill();
-    ellipse(450,290,80, 20);
-
+    ellipse(465,280,80, 20);
 
 }
