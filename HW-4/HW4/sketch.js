@@ -25,13 +25,13 @@ function draw() {
     fill('black');
     rect( 250, 150, 100, 100, 10, 90);
     rect( 600, 150, 100, 100, 10, 90);
+    strokeWeight(4);
+    Line(240,160, 260,160);
+
 
     fill('white');
     ellipse(290,200, 80,80);
     ellipse(660, 200, 80, 80);
-
-    strokeWeight(4);
-    Line(240,160, 260,160);
 
     noFill();
     ellipse(440,300,100, 30);
