@@ -22,7 +22,7 @@ function draw() {
 
 //nose
     fill('black');
-    ellipse(430,300, 30, 10);
+    ellipse(430,300, 30, 10)
     ellipse(470,300, 30,10);
 
     nofill();
