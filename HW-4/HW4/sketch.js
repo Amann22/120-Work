@@ -8,6 +8,9 @@ function draw() {
     fill('violet');
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
 
+    //teeth
+        line(450,300, 500, 300);
+
 //mouth
     fill('white');
     ellipse( 400, 350, 300, 60 );
@@ -31,8 +34,5 @@ function draw() {
     fill('purple');
     rotate( radians(30));
     arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
-
-//teeth
-    line(450,300, 500, 300);
 
 }
