@@ -29,7 +29,7 @@ function draw() {
     ellipse(660, 200, 80, 80);
 //nose
     noFill();
-    ellipse(455,385,100, 30);
+    ellipse(455,285,100, 30);
 
     fill('black');
     ellipse(440,290, 30, 10);
