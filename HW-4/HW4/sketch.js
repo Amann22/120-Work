@@ -11,7 +11,7 @@ function draw() {
 //mouth
     fill('white');
     ellipse( 400, 350, 300, 60 );
-    line(170 ,370, 550, 370);
+    line(200 ,355, 550, 355);
 
 //eyes
     fill('black');
