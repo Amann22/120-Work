@@ -22,7 +22,7 @@ function draw() {
 
 //nose
     fill('black');
-    ellipse(430,300, 30, 10)
+    ellipse(430,300, 30, 10);
     ellipse(470,300, 30,10);
 
     nofill();
@@ -31,5 +31,8 @@ function draw() {
     fill('purple');
     rotate( radians(30));
     arc(200, 200, 80, 80, 0, PI + QUARTER_PI, PIE);
+
+//teeth
+    line(450,300, 500, 300);
 
 }
