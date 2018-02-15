@@ -19,14 +19,11 @@ function draw() {
     line(400,340,400,360);
     line(500,340,500,360);
 
-    strokeWeight(4);
-    Line(240,160, 260,160);
+
 //eyes
     fill('black');
     rect( 250, 150, 100, 100, 10, 90);
     rect( 600, 150, 100, 100, 10, 90);
-
-
     fill('white');
     ellipse(290,200, 80,80);
     ellipse(660, 200, 80, 80);
