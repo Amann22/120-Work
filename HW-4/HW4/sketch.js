@@ -20,12 +20,12 @@ function draw() {
 
 //eyes
     fill('black');
-    rect( 300, 150, 100, 100, 10, 90);
-    rect( 500, 150, 100, 100, 10, 90);
+    rect( 250, 150, 100, 100, 10, 90);
+    rect( 600, 150, 100, 100, 10, 90);
 
 
     fill('white');
-    ellipse();
+    ellipse(260,150, 30,30);
 
     noFill();
     ellipse(440,300,100, 30);
