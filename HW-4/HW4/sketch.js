@@ -24,19 +24,19 @@ function draw() {
       fill('rgb(250,128,114)');
     ellipse(90,200, 100,200);
     //hair
-    ellipse(300,20, 80,100);
-    ellipse(80,30, 80,100);
-    ellipse(150,50, 80,100);
-    ellipse(160,35, 75,100);
+    ellipse(300,20, 80,120);
+    ellipse(80,30, 80,130);
+    ellipse(150,50, 80,110);
+    ellipse(160,35, 75,120);
     ellipse(400,20, 90,100);
-    ellipse(500,35, 89,100);
+    ellipse(500,35, 89,130);
     ellipse(600,35, 78,100);
-    ellipse(505,35, 89,100);
+    ellipse(505,35, 89,110);
     ellipse(650,35, 90,100);
-    ellipse(700,35, 89,100);
+    ellipse(700,35, 89,120);
     ellipse(730,35, 90,100);
-    ellipse(450,35, 78,100);
-    ellipse(350,35, 89,100);
+    ellipse(450,35, 78,120);
+    ellipse(350,35, 89,111);
 
 
 
@@ -54,4 +54,9 @@ function draw() {
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
+}
+
+function draw(){
+
+  line(450,450,490,490)
 }
