@@ -38,8 +38,8 @@ function draw() {
     ellipse(450,35, 78,120);
     ellipse(350,35, 89,111);
     ellipse(100,40, 70,120);
-    ellipse(620,200, 75,110);
-    ellipse(670,200, 80,130);
+    ellipse(590,20, 75,110);
+    ellipse(660,30, 80,130);
 
 
 
