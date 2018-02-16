@@ -44,7 +44,23 @@ function draw() {
     ellipse(100,40, 70,120);
     ellipse(590,20, 75,110);
     ellipse(660,30, 80,130);
-
+//thinhair
+ellipse(300,20, 43,120);
+ellipse(80,30, 32,130);
+ellipse(160,50, 25,110);
+ellipse(220,35, 36,120);
+ellipse(400,20, 36,100);
+ellipse(500,35, 23,130);
+ellipse(600,35, 53,100);
+ellipse(505,35, 45,110);
+ellipse(280,35, 23,100);
+ellipse(700,35, 12,120);
+ellipse(750,35, 23,150);
+ellipse(450,35, 12,120);
+ellipse(350,35, 23,111);
+ellipse(100,40, 43,120);
+ellipse(590,20, 23,110);
+ellipse(660,30, 43,130);
 
 
 //eyes
@@ -78,11 +94,5 @@ function draw() {
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
 
-    push();
-    lineWeight(5);
-    line(120,110, 720,110);
-    line(135,130, 720,130);
-    line(120,90,710,90);
-    line(420,200,520,200);
-    line(430,190,510,190);
+
 }
