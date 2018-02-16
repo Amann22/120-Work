@@ -77,4 +77,12 @@ function draw() {
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
+
+    push();
+    lineWeight(3);
+    line(120,110, 720,110);
+    line(135,130, 720,130);
+    line(120,90,710,90);
+    line(420,200,520,200);
+    line(430,190,510,190);
 }
