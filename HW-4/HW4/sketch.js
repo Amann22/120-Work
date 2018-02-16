@@ -90,13 +90,12 @@ ellipse(660,30, 43,130);
     line(348,210,320,280);
     line(602,210,640,280);
 
-    nofill();
-    triangle(100,225,100,240,115,232);
 
 //nose
+
     noFill();
     ellipse(455,285,100, 30);
-
+    push();
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
