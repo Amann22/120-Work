@@ -79,7 +79,7 @@ function draw() {
     ellipse(480,290, 30,10);
 
     push();
-    lineWeight(3);
+    lineWeight(5);
     line(120,110, 720,110);
     line(135,130, 720,130);
     line(120,90,710,90);
