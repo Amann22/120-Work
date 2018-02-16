@@ -6,7 +6,7 @@ function setup() {
 function draw() {
 
     fill('salmon');
-    ellipse(840,200,100,200);
+    ellipse(830,190,100,200);
     rect( 60, 30, 780, 370, 100, 100, 1, 1 );
     ellipse(90,200, 100,200);
 
