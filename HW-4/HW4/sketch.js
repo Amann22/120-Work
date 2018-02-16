@@ -95,12 +95,11 @@ ellipse(660,30, 43,130);
 
     noFill();
     ellipse(455,285,100, 30);
-    push();
     fill('black');
     ellipse(440,290, 30, 10);
     ellipse(480,290, 30,10);
 
     nofill();
     triangle(100,225,100,240,115,232);
-    pop();
+
 }
