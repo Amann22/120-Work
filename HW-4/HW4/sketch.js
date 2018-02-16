@@ -53,8 +53,8 @@ function draw() {
     ellipse(290,200, 80,80);
     ellipse(660, 200, 80, 80);
     fill('black');
-    ellipse(300,210, 75,75);
-    ellipse(670,210,75,75);
+    ellipse(295,205, 70,70);
+    ellipse(665,205,70,70);
 //nose
     noFill();
     ellipse(455,285,100, 30);
