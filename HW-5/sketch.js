@@ -24,6 +24,6 @@ function draw(){
 
   translate(width/2,height/2);
   fill('satin');
-  ellipse(0,0,50);
+  box(45,45,45);
 
 }
