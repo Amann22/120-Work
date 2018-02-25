@@ -9,7 +9,6 @@ function draw(){
   background('salmon');
   //red circles horizontal
   fill('red');
-  noStroke();
   ellipse(circlex,0,50,50);
   ellipse(circlex,400,50,50);
   circlex = circlex + 1;
