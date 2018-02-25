@@ -24,6 +24,8 @@ function draw(){
 
   translate(width/2,height/2);
   fill('satin');
-  box(45,45,45);
+  rotateX(frameCount * 0.01);
+  rotateY(frameCount * 0.01);
+  box(50);
 
 }
