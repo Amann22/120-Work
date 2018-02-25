@@ -38,7 +38,8 @@ circlex = circlex + .5;
 
 translate(width/2,height/2);
 textSize(32);
+fill('yellow');
 text('MAKE ART',0,0);
-fill(0, 102, 153);
+
 
 }
