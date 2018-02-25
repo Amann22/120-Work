@@ -7,19 +7,9 @@ function setup(){
 
 function draw(){
 
-  //red circles horizontal
-  fill('violet');
-  ellipse(circlex,0,50,50);
-  fill('yellow');
-  ellipse(circlex,400,50,50);
-  fill('maroon');
-  ellipse(circlex,100,50,50);
-  fill('red');
-  ellipse(circlex,200,50,50);
-  fill('orange');
-  ellipse(circlex,300,50,50);
-  circlex = circlex + .5;
-//mouse moving
+
+
+//mouse moving color
 
 push();
   fill('yellow');
@@ -32,7 +22,20 @@ push();
   ellipse(mouseX,mouseY+300,40,40);
   fill('violet');
   ellipse(mouseX,mouseY+400,40,40);
-
 pop();
+
+//traveling color
+noStroke();
+fill('violet');
+ellipse(circlex,0,50,50);
+fill('yellow');
+ellipse(circlex,400,50,50);
+fill('maroon');
+ellipse(circlex,100,50,50);
+fill('red');
+ellipse(circlex,200,50,50);
+fill('orange');
+ellipse(circlex,300,50,50);
+circlex = circlex + .5;
 
 }
