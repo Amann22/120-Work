@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw(){
-  
+  push();
   //red circles horizontal
   fill('red');
   ellipse(circlex,0,50,50);
@@ -16,8 +16,8 @@ function draw(){
   ellipse(circlex,300,50,50);
   circlex = circlex + 1;
 //mouse moving
+pop();
 
-push();
   fill('yellow');
   ellipse(mouseX,mouseY, 40,40);
   ellipse(mouseX,mouseY+100,40,40);
@@ -25,6 +25,5 @@ push();
   ellipse(mouseX,mouseY+300,40,40);
   ellipse(mouseX,mouseY+400,40,40);
 
-pop();
 
 }
