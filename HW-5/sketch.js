@@ -20,9 +20,13 @@ function draw(){
 push();
   fill('yellow');
   ellipse(mouseX,mouseY, 40,40);
+  fill('orange');
   ellipse(mouseX,mouseY+100,40,40);
+  fill('red');
   ellipse(mouseX,mouseY+200,40,40);
+  fill('maroon');
   ellipse(mouseX,mouseY+300,40,40);
+  fill('violet');
   ellipse(mouseX,mouseY+400,40,40);
 
 pop();
