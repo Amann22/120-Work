@@ -7,6 +7,7 @@ function setup(){
 
 function draw(){
   push();
+  background('salmon');
   //red circles horizontal
   fill('red');
   ellipse(circlex,0,50,50);
