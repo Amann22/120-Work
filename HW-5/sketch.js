@@ -17,6 +17,4 @@ function draw(){
   ellipse(0,cricleY,50,50);
   ellipse(600,circleY,50,50);
   circleY = circleY + 1;
-
-
 }
