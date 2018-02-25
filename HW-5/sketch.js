@@ -18,7 +18,7 @@ function draw(){
   ellipse(circlex,200,50,50);
   fill('orange');
   ellipse(circlex,300,50,50);
-  circlex = circlex + 2;
+  circlex = circlex + .5;
 //mouse moving
 
 push();
