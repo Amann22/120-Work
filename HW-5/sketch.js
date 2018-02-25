@@ -14,6 +14,5 @@ function draw(){
   circlex = circlex + 1;
   circleY = circleY + 1;
   //red circles vertical
-  ellipse(0,cricleY,50,50);
-  ellipse(600,circleY,50,50);
+
 }
