@@ -2,10 +2,11 @@ var circlex = 0;
 
 function setup(){
   createCanvas( 600,400);
+  background('salmon');
 }
 
 function draw(){
-  background('salmon');
+  
   //red circles horizontal
   fill('red');
   ellipse(circlex,0,50,50);
