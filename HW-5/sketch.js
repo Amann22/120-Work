@@ -12,6 +12,7 @@ function draw(){
 //mouse moving color
 
 push();
+  strokeweight(1);
   fill('yellow');
   ellipse(mouseX,mouseY, 40,40);
   fill('orange');
