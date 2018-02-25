@@ -8,11 +8,15 @@ function setup(){
 function draw(){
 
   //red circles horizontal
-  fill('red');
+  fill('violet');
   ellipse(circlex,0,50,50);
+  fill('yellow');
   ellipse(circlex,400,50,50);
+  fill('maroon');
   ellipse(circlex,100,50,50);
+  fill('red');
   ellipse(circlex,200,50,50);
+  fill('orange');
   ellipse(circlex,300,50,50);
   circlex = circlex + 2;
 //mouse moving
