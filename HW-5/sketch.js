@@ -23,6 +23,7 @@ function draw(){
   ellipse(mouseX,mouseY+400,40,40);
 
   translate(width/2,height/2);
-  ellipse(0,0,50)
+  fill('satin');
+  ellipse(0,0,50);
 
 }
