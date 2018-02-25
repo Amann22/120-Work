@@ -17,5 +17,6 @@ function draw(){
 //mouse moving
   fill('yellow');
   ellipse(mouseX,mouseY, 40,40);
-  
+  ellipse(mouseX,mouseY+100,40,40);
+
 }
