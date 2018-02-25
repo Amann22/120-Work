@@ -22,7 +22,7 @@ function draw(){
   ellipse(mouseX,mouseY+300,40,40);
   ellipse(mouseX,mouseY+400,40,40);
 
-}
-function draw(){
-  
+  translate(width/2,height/2);
+  ellipse(0,0,50)
+
 }
