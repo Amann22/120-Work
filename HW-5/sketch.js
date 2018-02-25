@@ -15,6 +15,8 @@ function draw(){
   ellipse(circlex,300,50,50);
   circlex = circlex + 1;
 //mouse moving
+
+push();
   fill('yellow');
   ellipse(mouseX,mouseY, 40,40);
   ellipse(mouseX,mouseY+100,40,40);
@@ -22,8 +24,6 @@ function draw(){
   ellipse(mouseX,mouseY+300,40,40);
   ellipse(mouseX,mouseY+400,40,40);
 
-  translate(width/2,height/2);
-  fill('green');
-  ellipse(0,0,50);
+pop();
 
 }
