@@ -24,7 +24,7 @@ push();
   ellipse(mouseX,mouseY+200,40,40);
   ellipse(mouseX,mouseY+300,40,40);
   ellipse(mouseX,mouseY+400,40,40);
-  text(a,20,20);
+  
 pop();
 
 }
