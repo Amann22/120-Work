@@ -6,9 +6,6 @@ function setup(){
 }
 
 function draw(){
-
-
-
 //mouse moving color
 
 push();
