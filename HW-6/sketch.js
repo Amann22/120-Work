@@ -6,7 +6,7 @@ function setup(){
 }
 
 function draw(){
-let colr = floor( random(256,256,256) );
+let colr = floor( random(256,) );
 fill(colr);
   let circle_size = random( 10, width-10 );
       ellipse( width/2, height/2, circle_size );
