@@ -4,6 +4,7 @@ let rand = random();
 function setup(){
   createCanvas(600,400);
   background('salmon');
+  frameRate(20);
 }
 
 function draw(){
