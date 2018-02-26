@@ -1,10 +1,8 @@
 
-let rand = random();
-
 function setup(){
   createCanvas(600,600);
   background('salmon');
-  frameRate(20);
+  frameRate(10);
 }
 
 function draw(){
