@@ -6,7 +6,7 @@ function setup(){
   background('salmon');
 }
 function draw(){
-
+line(rand,rand);
 
 
 }
