@@ -15,10 +15,4 @@ fill(colr,colrx,colry);
       ellipse( width/2, height/2, circle_size );
 pop();
 
-let red = floor( random(256) );
-    let green = floor( random(256) );
-    let blue = floor( random(256) );
-    background( red, green, blue );
-
-
 }
