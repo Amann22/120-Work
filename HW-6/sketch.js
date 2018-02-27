@@ -22,34 +22,29 @@ fill(colr,colrx,colry);
     noStroke();
     ellipse( circleX, 250, 30 );
 
-    circleX = circleX + 5;
+    circleX = circleX + 3;
     circleX = circleX % width;
 //line2
     fill('violet');
     noStroke();
     ellipse( circleY, 300, 30 );
 
-    circleY = circleY - 5;
+    circleY = circleY - 3;
     circleY = circleY % width;
 //line3
     fill('violet');
     noStroke();
     ellipse( circleX, 350, 30 );
-
-    circleX = circleX + 5;
-    circleX = circleX % width;
 //line4
     fill('violet');
     noStroke();
     ellipse( circleY, 400, 30 );
-
-    circleY = circleY - 5;
-    circleY = circleY % width;
 //line5
     fill('violet');
     noStroke();
     ellipse( circleX, 450, 30 );
-  
+
+
 
 
 
