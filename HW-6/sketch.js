@@ -44,8 +44,4 @@ fill(colr,colrx,colry);
     noStroke();
     ellipse( circleX, 400, 30 );
 
-
-
-
-
 }
