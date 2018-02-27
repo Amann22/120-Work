@@ -20,29 +20,29 @@ fill(colr,colrx,colry);
 //horizontal lines 1
     fill('violet');
     noStroke();
-    ellipse( circleX, 250, 30 );
+    ellipse( circleX, 200, 30 );
 
     circleX = circleX + 3;
     circleX = circleX % width;
 //line2
     fill('violet');
     noStroke();
-    ellipse( circleY, 300, 30 );
+    ellipse( circleY, 250, 30 );
 
     circleY = circleY - 3;
     circleY = circleY % width;
 //line3
     fill('violet');
     noStroke();
-    ellipse( circleX, 350, 30 );
+    ellipse( circleX, 300, 30 );
 //line4
     fill('violet');
     noStroke();
-    ellipse( circleY, 400, 30 );
+    ellipse( circleY, 350, 30 );
 //line5
     fill('violet');
     noStroke();
-    ellipse( circleX, 450, 30 );
+    ellipse( circleX, 400, 30 );
 
 
 
