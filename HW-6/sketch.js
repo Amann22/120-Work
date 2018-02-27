@@ -27,7 +27,7 @@ fill(colr,colrx,colry);
     noStroke();
     ellipse( circleY, 200, 30 );
 
-    circleY = circleY + 5;
+    circleY = circleY - 5;
     circleY = circleY % width;
 
 
