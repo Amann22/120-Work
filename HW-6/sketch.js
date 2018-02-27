@@ -6,6 +6,7 @@ function setup(){
 }
 
 let circleX=10;
+let circleY=20;
 
 function draw(){
 let colr = floor( random(256) );
@@ -14,12 +15,21 @@ let colry= floor( random(256) );
 fill(colr,colrx,colry);
   let circle_size = random( 10, width-10 );
       ellipse( width/2, height/2, circle_size );
-//
-    fill(255);
+//horizontal lines
+    fill('violet');
     noStroke();
     ellipse( circleX, 140, 30 );
 
     circleX = circleX + 5;
     circleX = circleX % width;
+
+    fill('violet');
+    noStroke();
+    ellipse( circleY, 140, 30 );
+
+    circleY = circleY + 5;
+    circleY = circleY % width;
+
+
 
 }
