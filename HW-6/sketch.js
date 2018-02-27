@@ -19,6 +19,7 @@ let colry= floor( random(256) );
 r = map(mouseX,0,600,0,255);
 g = map(mouseX,0,600,255,0);
 b = map(mouseY,0,600,0,255);
+let circleY=590;
 
 fill(colr,colrx,colry);
   let circle_size = random( 10, width-10 );
