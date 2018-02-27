@@ -6,7 +6,7 @@ function setup(){
 }
 
 let circleX=10;
-let circleY=10;
+let circleY=590;
 
 function draw(){
 let colr = floor( random(256) );
