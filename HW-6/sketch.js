@@ -2,7 +2,7 @@
 function setup(){
   createCanvas(600,600);
   background('salmon');
-  frameRate(5);
+  frameRate(10);
 }
 
 let circleX=10;
@@ -20,38 +20,36 @@ fill(colr,colrx,colry);
 //horizontal lines 1
     fill('violet');
     noStroke();
-    ellipse( circleX, 150, 30 );
+    ellipse( circleX, 250, 30 );
 
     circleX = circleX + 5;
     circleX = circleX % width;
 //line2
     fill('violet');
     noStroke();
-    ellipse( circleY, 200, 30 );
+    ellipse( circleY, 300, 30 );
 
     circleY = circleY - 5;
     circleY = circleY % width;
 //line3
     fill('violet');
     noStroke();
-    ellipse( circleX, 250, 30 );
+    ellipse( circleX, 350, 30 );
 
     circleX = circleX + 5;
     circleX = circleX % width;
 //line4
     fill('violet');
     noStroke();
-    ellipse( circleY, 300, 30 );
+    ellipse( circleY, 400, 30 );
 
     circleY = circleY - 5;
     circleY = circleY % width;
 //line5
     fill('violet');
     noStroke();
-    ellipse( circleX, 350, 30 );
-
-    circleX = circleX + 5;
-    circleX = circleX % width;
+    ellipse( circleX, 450, 30 );
+  
 
 
 
