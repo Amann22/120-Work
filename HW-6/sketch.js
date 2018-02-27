@@ -7,6 +7,7 @@ function setup(){
 
 let circleX=10;
 let circleY=590;
+let col = 0;
 
 function draw(){
   //color changing circles
@@ -32,9 +33,11 @@ fill(colr,colrx,colry);
     circleY = circleY - 3;
     circleY = circleY % width;
 //line3
-    fill('violet');
+  col = map(mouseX,0,600,0,255);
+    fill(col);
     noStroke();
     ellipse( circleX, 300, 30 );
+
 //line4
     fill('violet');
     noStroke();
