@@ -9,7 +9,6 @@ let circleX=10;
 let circleY=590;
 
 function draw(){
-  stroke(10);
 let colr = floor( random(256) );
 let colrx= floor( random(256) );
 let colry= floor( random(256) );
