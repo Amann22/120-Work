@@ -18,7 +18,7 @@ For the past couple weeks I have been having issues with my readme and the place
 
 ## 4. Is there anything in particular that you learned that you would like to discuss more?
 
-This week I kept trying to put in multiple elements that sometimes counteracted eachother. One example of this would be trying to have the background change color while also having the ellipse creations over time stay. I was wondering in things like this are possible.
+This week I kept trying to put in multiple elements that sometimes counteracted each other. One example of this would be trying to have the background change color while also having the ellipse creations over time stay. I was wondering in things like this are possible.
 
 ## 5. What issues did you help your classmates out with this week?
 
