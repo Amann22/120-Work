@@ -1,6 +1,6 @@
 Aidan Mann, Section50
 
-[Live Sketch Link](Your Live Link)
+[https://amann22.github.io/120-Work/HW-7/](https://github.com/Amann22/120-Work/tree/master/HW-7)
 
 # HW 7 | Describe then Alter the Bouncing Ball
 
