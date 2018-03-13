@@ -11,11 +11,12 @@ ball.scale_y = 1;
 
 function setup() {
     createCanvas(windowWidth, 400);
-    background( 255);
+    background( 0);
     frameRate(100);
 }
 
 function draw() {
+  noStroke();
 
     ball.x += ball.delta_x * ball.scale_x;
     ball.y += ball.delta_y * ball.scale_y;
