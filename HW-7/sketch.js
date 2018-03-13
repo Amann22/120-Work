@@ -12,7 +12,7 @@ ball.scale_y = 1;
 function setup() {
     createCanvas(windowWidth, 400);
     background( 255);
-    frameRate(10);
+    frameRate(100);
 }
 
 function draw() {
