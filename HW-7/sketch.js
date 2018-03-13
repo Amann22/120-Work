@@ -16,6 +16,9 @@ function setup() {
 }
 
 function draw() {
+  if( mouseIsPressed ) {
+        ball.width++;
+    }
   noStroke();
 
     ball.x += ball.delta_x * ball.scale_x;
