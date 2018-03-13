@@ -11,13 +11,14 @@ ball.scale_y = 1;
 
 function setup() {
     createCanvas(windowWidth, 400);
-    background(255);
+
 }
 
 
 
 function draw() {
 
+background( random(255), random(255), random(255) );
     ball.x += ball.delta_x * ball.scale_x;
     ball.y += ball.delta_y * ball.scale_y;
 
