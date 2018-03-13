@@ -1,7 +1,7 @@
 
 
 let ball = {};
-ball.width = 40;
+ball.width = 50;
 ball.x = 10;
 ball.y = 10;
 ball.delta_x = 1;
