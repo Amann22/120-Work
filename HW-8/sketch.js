@@ -1,6 +1,6 @@
 function setup() {
 	createCanvas(600, 600);
-  background('r andom(255)');
+  background('random(255)');
 }
 
 function draw() {
