@@ -12,7 +12,7 @@ function draw() {
 		}
 	}
   for (let y = 10; y <= height; y += 19) {
-		for (let x = -30; x <= width; x += 19) {
+		for (let x = -200; x <= width; x += 19) {
 			noFill();
       stroke(5);
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
