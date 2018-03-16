@@ -11,8 +11,8 @@ function draw() {
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
-	for (let y = 10; y <= height; y += 16) {
-		for (let x = -200; x <= width; x += 16) {
+	for (let y = 10; y <= height; y += 14) {
+		for (let x = -200; x <= width; x += 14) {
 			fill('teal');
       noStroke();
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
