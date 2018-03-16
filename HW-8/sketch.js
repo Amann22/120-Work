@@ -22,6 +22,7 @@ function draw() {
 		for (let x = -1000; x <= width; x += 19) {
 			noFill();
       stroke(5);
+      stroke('rgb(255,250,250)')
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
