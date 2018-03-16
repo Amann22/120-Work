@@ -1,5 +1,6 @@
 function setup() {
 	createCanvas(600, 600);
+  background('reandom(255)');
 }
 
 function draw() {
@@ -7,7 +8,7 @@ function draw() {
 	for (let y = 30; y <= height; y += 15) {
 		for (let x = 12; x <= width; x += 15) {
 			fill(255);
-			tri(x + y, y, 16 - y/10.0, 16 - y/10.0);
+			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
 }
