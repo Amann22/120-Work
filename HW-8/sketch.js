@@ -18,7 +18,7 @@ function draw() {
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
-  for (let y = 10; y <= height; y += 30) {
+  for (let y = 10; y <= height; y += 25) {
 		for (let x = -1000; x <= width; x += 25) {
 			noFill();
       stroke(5);
