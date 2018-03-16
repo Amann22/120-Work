@@ -18,8 +18,8 @@ function draw() {
 			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
-  for (let y = 10; y <= height; y += 19) {
-		for (let x = -1000; x <= width; x += 19) {
+  for (let y = 10; y <= height; y += 30) {
+		for (let x = -1000; x <= width; x += 30) {
 			noFill();
       stroke(5);
       stroke('rgb(255,250,250)')
