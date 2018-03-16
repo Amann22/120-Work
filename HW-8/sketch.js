@@ -1,10 +1,9 @@
 function setup() {
 	createCanvas(600, 600);
-  background('reandom(255)');
+  background('r andom(255)');
 }
 
 function draw() {
-	background(0);
 	for (let y = 30; y <= height; y += 15) {
 		for (let x = 12; x <= width; x += 15) {
 			fill(255);
