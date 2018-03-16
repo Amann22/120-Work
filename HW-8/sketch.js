@@ -4,10 +4,10 @@ function setup() {
 }
 
 function draw() {
-	for (let y = 30; y <= height; y += 15) {
+	for (let y = 30; y <= height; y += 30) {
 		for (let x = 12; x <= width; x += 15) {
 			fill(255);
-			ellipse(x + y, y, 20 - y/10.0, 16 - y/10.0);
+			ellipse(x + y, y, 16 - y/10.0, 16 - y/10.0);
 		}
 	}
 }
