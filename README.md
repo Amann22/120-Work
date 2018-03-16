@@ -7,7 +7,7 @@ Aidan Mann
 # Week eight Response
 
 ## 1. Summarize the work you did this homework cycle. Paying attention to the individual choices you made.
-  This week was a huge relief for me, I have been a little behind but it game me the opportunity to catch up and still learn a very cool loop function. I went through the website and read through each page making sure to mess with the code and experiment. I also went back to last week and revisited some of the lesson from last week.
+  This week was a huge relief for me, I have been a little behind but it gave me the opportunity to catch up and still learn a very cool loop function. I went through the website and read through each page making sure to mess with the code and experiment. I also went back to last week and revisited some of the lesson from last week.
 
 ## 2. What steps did you take to complete the assignment?
   For this project I started with a basic looping code using ellipses and I put a couple different looping cycles going at one creating a very interesting page. Once done with this I messed with the size and orientation of the different loops. Last off I added color.
