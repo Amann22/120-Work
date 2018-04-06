@@ -2,24 +2,19 @@
 This is Aidan Mann's repo for course work relating to creative coding.
 Aidan Mann
 
-# Week Five Response
+# Week Ten Response
 
 ## 1. Summarize the work you did this homework cycle. Paying attention to the individual choices you made.
-
-This week went well but it took me much longer to complete then I would have expected. Without the same videos as the previous weeks I just studied the different pages on the website while doing tests on atom. I started later but I still just buckled down and put in the time that I needed to learn it.
+During this homework cycle I decided to use some preexisting code that I had made for an earlier week. I added an array as well as reorganizing the code into new functions that I renamed and used. Reusing some code helped me out, It allowed me to spend more time experimenting with new topics.
 
 ## 2. What steps did you take to complete the assignment?
-
-This week consisted of mostly trial and error tests, as I went through the posted material I tested much of the code on my own. Because we are getting into more interesting creations it was very cool to play with code and experiment.
+I followed the site very closely and watched the videos posted on the page. This weeks material wasn't to hard to follow.
 
 ## 3. Did you have any issues? how did you solve these? Did you post about these to the class? Did you receive any useful feedback from your classmates?
-
-As always I had some issues but with trial and error and help from another classmate I was able to create, what I think is very cool. One problem that I am still having relates to the sandboxes and how they work, I am currently working on this but I was having trouble with it.
+I did have some issues with organization but I am trying to keep it clean. Using these new functions that we can name instead of having everything in draw is very helpful to separate and label the code.
 
 ## 4. Is there anything in particular that you learned that you would like to discuss more?
-
-This week I learned alot more about the organization of code and how this can it it much easier for a coder. I need to get in the good habits now when our code is generally simple.
+I like learning about the array but I am still not fully sure of all its uses.
 
 ## 5. What issues did you help your classmates out with this week?
-
-This week I was able to ask a classmate questions and talk about the software, this was very helpful for me and hopefully them.
+I worked with another student outside of class this week, and kept an eye on the forum looking for things I could help with.
