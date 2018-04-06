@@ -12,14 +12,14 @@ ball.scale_y = array[2];
 function setup() {
     createCanvas(windowWidth, 400);
     background( 0);
-    frameRate(100);
+    frameRate(10);
 }
 
 function draw() {
   display();
   move();
   bounce();
-    frameRate(100);
+    frameRate(10);
   if( mouseIsPressed ) {
           ball.width++;
     }
