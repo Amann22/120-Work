@@ -12,24 +12,23 @@ ball.scale_y = array[2];
 function setup() {
     createCanvas(windowWidth, 400);
     background( 0);
-    frameRate(10);
+    frameRate(100);
 }
 
 function draw() {
   display();
   move();
   bounce();
-    frameRate(10);
+    frameRate(100);
   if( mouseIsPressed ) {
           ball.width++;
     }
-
+}
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, array[1]);
     ball.scale_y = map(mouseY, 0, height, 0.5, array[1]);
   }
 
-}
 
 function move () {
   ball.x += ball.delta_x * ball.scale_x;
