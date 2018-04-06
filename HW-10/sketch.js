@@ -16,14 +16,18 @@ function setup() {
 }
 
 function draw() {
-  if( mouseIsPressed ) {
-        ball.width++;
+  display();
+  move();
+  bounce();
+
     }
-}
 
 function mousePressed() {
     ball.scale_x = map(mouseX, 0, width, 0.5, array[1]);
     ball.scale_y = map(mouseY, 0, height, 0.5, array[1]);
+  }
+  if( mouseIsPressed ) {
+          ball.width++;
 }
 
 function move () {
