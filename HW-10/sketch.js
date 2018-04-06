@@ -19,6 +19,7 @@ function draw() {
   display();
   move();
   bounce();
+    frameRate(100);
   if( mouseIsPressed ) {
           ball.width++;
     }
