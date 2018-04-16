@@ -4,18 +4,20 @@ Aidan Mann, Section50
 This is Aidan Mann's repo for course work relating to creative coding.
 Aidan Mann
 
-# Week eight Response
+# Week Eleven Response
 
 ## 1. Summarize the work you did this homework cycle. Paying attention to the individual choices you made.
-  This week was a huge relief for me, I have been a little behind but it gave me the opportunity to catch up and still learn a very cool loop function. I went through the website and read through each page making sure to mess with the code and experiment. I also went back to last week and revisited some of the lesson from last week.
+This week proved to be very difficult. This new concept is very interesting but understanding the basis of OOP's and why they are useful is very difficult. I was very happy with the sketch that I created, it could have been done with the coding knowledge from last week but this new application is interesting.
+
 
 ## 2. What steps did you take to complete the assignment?
-  For this project I started with a basic looping code using ellipses and I put a couple different looping cycles going at one creating a very interesting page. Once done with this I messed with the size and orientation of the different loops. Last off I added color.
+I closely followed the website and forum, this week took me the most time. I did much of my coding on a separate computer and had to transfer some work, this wasn't very difficult. I also watched most of the more popular OOP videos out there.
 
 ## 3. Did you have any issues? how did you solve these? Did you post about these to the class? Did you receive any useful feedback from your classmates?
-  I didn't have many issues with this weeks project. But I really like the application of what we learned this week.
+This week was definetly the most difficult for me yet. I had alot of trouble understanding the OOP's but after watching many videos I seem to understand this new way of coding.
 
 ## 4. Is there anything in particular that you learned that you would like to discuss more?
-  I would like to discuss the movement of the loops, It was mentioned a little bit but I think being able to let the loop functions move around randomly would look awesome.
+I would like to learn more about OOP's in general I feel that I don't have the best grasp on this yet and from the different videos this seems important in coding these days.
+
 ## 5. What issues did you help your classmates out with this week?
-This I tried to do some research and look into some of the emails that other students had sent and had problems but i was unable to help anyone.
+I worked on this weeks objectives somewhat late, much of my classmates had their questions answered. 
