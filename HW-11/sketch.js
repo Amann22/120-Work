@@ -1,41 +1,42 @@
-let clouds = [];
+var fiestas = [];
 
 function setup() {
-    createCanvas(windowWidth, 400);
-    let b = new Cloud(width/2, height/2, 10);
-    clouds.push(b);
+    createCanvas(600, 600);
+    var b = new Fiesta(width/2, height/2, 10);
+    fiestas.push(b);
+    frameRate(9);
 }
 
 function mouseDragged() {
-    let r = random(10, 50);
-    let b = new Cloud(mouseX, mouseY, r);
-    clouds.push(b);
+    var a = random(10, 50);
+    var b = new Fiesta(mouseX, mouseY, a);
+    fiestas.push(b);
 }
 
 function draw() {
-    background(0);
-    for (let i = 0; i < clouds.length; i++) {
-        clouds[i].move();
-        clouds[i].show();
+    background(70);
+    for (var i = 0; i < fiestas.length; i++) {
+        fiestas[i].roam();
+        fiestas[i].appear();
     }
 }
 
-class Cloud {
-    constructor(x, y, r) {
+class Fiesta {
+    constructor(x, y, a) {
         this.x = x;
         this.y = y;
-        this.r = r;
+        this.a = a;
     }
 
-    move() {
-        this.x = this.x + random(-5, 5);
-        this.y = this.y + random(-5, 5);
+    roam() {
+        this.x = this.x + random(-9, 9);
+        this.y = this.y + random(-9, 9);
     }
 
-    show() {
+    appear() {
         stroke(255);
-        strokeWeight(4);
-        fill("Random");
-        ellipse(this.x, this.y, this.r * 2);
+        strokeWeight(0);
+        fill(random(255), random(255), random(255));
+        ellipse(this.x, this.y, this.a );
     }
 }

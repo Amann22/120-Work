@@ -2,24 +2,20 @@
 This is Aidan Mann's repo for course work relating to creative coding.
 Aidan Mann
 
-# Week Five Response
+# Week Eleven Response
 
 ## 1. Summarize the work you did this homework cycle. Paying attention to the individual choices you made.
+This week proved to be very difficult. This new concept is very interesting but understanding the basis of OOP's and why they are useful is very difficult. I was very happy with the sketch that I created, it could have been done with the coding knowledge from last week but this new application is interesting.
 
-This week went well but it took me much longer to complete then I would have expected. Without the same videos as the previous weeks I just studied the different pages on the website while doing tests on atom. I started later but I still just buckled down and put in the time that I needed to learn it.
 
 ## 2. What steps did you take to complete the assignment?
-
-This week consisted of mostly trial and error tests, as I went through the posted material I tested much of the code on my own. Because we are getting into more interesting creations it was very cool to play with code and experiment.
+I closely followed the website and forum, this week took me the most time. I did much of my coding on a separate computer and had to transfer some work, this wasn't very difficult. I also watched most of the more popular OOP videos out there.
 
 ## 3. Did you have any issues? how did you solve these? Did you post about these to the class? Did you receive any useful feedback from your classmates?
-
-As always I had some issues but with trial and error and help from another classmate I was able to create, what I think is very cool. One problem that I am still having relates to the sandboxes and how they work, I am currently working on this but I was having trouble with it.
+This week was definetly the most difficult for me yet. I had alot of trouble understanding the OOP's but after watching many videos I seem to understand this new way of coding.
 
 ## 4. Is there anything in particular that you learned that you would like to discuss more?
-
-This week I learned alot more about the organization of code and how this can it it much easier for a coder. I need to get in the good habits now when our code is generally simple.
+I would like to learn more about OOP's in general I feel that I don't have the best grasp on this yet and from the different videos this seems important in coding these days.
 
 ## 5. What issues did you help your classmates out with this week?
-
-This week I was able to ask a classmate questions and talk about the software, this was very helpful for me and hopefully them.
+I worked on this weeks objectives somewhat late, much of my classmates had their questions answered. 
