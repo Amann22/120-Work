@@ -1,23 +1,21 @@
+
 Aidan Mann, Section50
 
 # 120-Work
-This is Aidan Mann's repo for course work relating to creative coding.
-Aidan Mann
 
-# Week Eleven Response
+# Final Proposal
 
-## 1. Summarize the work you did this homework cycle. Paying attention to the individual choices you made.
-This week proved to be very difficult. This new concept is very interesting but understanding the basis of OOP's and why they are useful is very difficult. I was very happy with the sketch that I created, it could have been done with the coding knowledge from last week but this new application is interesting.
+## 1. Proposal-
+For my final project I want to create a game using Java. My aim is create a evasion based game using the mouse or arrow-keys, having to dodge objects and collect others. I think that this will be a challenge that will encourage me to learn some new code.
 
+## 2. Influence
+My influence is old arcade games. Games that I grew up with like frogger and pac-man. My version will most likely be much more simple but based of this type of game. Hopefully I will be able to add different levels and create a interesting project.
 
-## 2. What steps did you take to complete the assignment?
-I closely followed the website and forum, this week took me the most time. I did much of my coding on a separate computer and had to transfer some work, this wasn't very difficult. I also watched most of the more popular OOP videos out there.
+## 3. Problems
+There will be many problems I have to face while taking on this challenge. I haven't worked much interacting objects causing outcomes but this interests me. I would like to try to create different levels to this game but based on research seems difficult.
 
-## 3. Did you have any issues? how did you solve these? Did you post about these to the class? Did you receive any useful feedback from your classmates?
-This week was definetly the most difficult for me yet. I had alot of trouble understanding the OOP's but after watching many videos I seem to understand this new way of coding.
+## 4. Work Plan
+I am leaving Montana early tomorrow (friday), and returning sunday night. This means that other than my work this last week and today I will have to work throughout next week. My plan is to complete the idea and layout the structure by the 2nd and after this I will lay down some base code and trouble shoot. I would like to have a working game completed by the 5th so that I can mess with the code and try to make some upgrades/changes by the due date.
 
-## 4. Is there anything in particular that you learned that you would like to discuss more?
-I would like to learn more about OOP's in general I feel that I don't have the best grasp on this yet and from the different videos this seems important in coding these days.
-
-## 5. What issues did you help your classmates out with this week?
-I worked on this weeks objectives somewhat late, much of my classmates had their questions answered. 
+## 5. Work Done
+So far I have just been doing research and trying to find similar code to what I am working with. From this I can take some ideas and create my own project. I have been watching many instructional videos working with java and this helps my understanding of the layout.
