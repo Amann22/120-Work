@@ -1,8 +1,15 @@
-var player;
 
+
+
+
+var player;
+var img;
+function preload(){
+  img = loadImage('images/wiz.jpg')
+}
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(500, 500);
     player = new Player();
 }
 
@@ -34,7 +41,7 @@ function Player() {
     rotate(this.heading);
     noFill();
     stroke(255);
-    triangle(-this.r, this.r, this.r, this.r, 0, -this.r);
+    image(img, this.r, this.r, 50,50);
 
 };
   this.setRotation = function(a){
