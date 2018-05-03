@@ -7,9 +7,11 @@ function setup() {
 }
 
 function draw() {
-    background(70);
+    background('salmon');
     player.render();
     player.turn();
+
+
 }
 function keyReleased(){
   player.setRotation(0);
@@ -20,8 +22,7 @@ function keyPressed() {
   } else if (keyCode == LEFT_ARROW) {
      player.setRotation(-0.1);
    }
-}
-
+   }
 function Player() {
   this.pos = createVector(width/2, height/2);
   this.r = 20;
@@ -34,6 +35,7 @@ function Player() {
     noFill();
     stroke(255);
     triangle(-this.r, this.r, this.r, this.r, 0, -this.r);
+
 };
   this.setRotation = function(a){
     this.rotation = a;

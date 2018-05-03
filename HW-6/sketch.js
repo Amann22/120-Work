@@ -1,17 +1,19 @@
 
-let img;
+var img;
+
 
 function preload() {
-    img = loadImage('./images/enchi.jpg');
+    img = loadImage('images/wiz.jpg');
 }
 
 function setup() {
-    createCanvas( windowWidth, 600 );
+    createCanvas( 400, 600 );
+
 }
 
 
 function draw() {
-    background( 'pink' );
+    background( 'salmon' );
 
     image(img, 10, 10);
 }
