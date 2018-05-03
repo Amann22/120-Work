@@ -1,36 +1,45 @@
-var obj;
+var player;
+
 
 function setup() {
-    createCanvas(600, 600);
-    obj = new Obj();
+    createCanvas(windowWidth, windowHeight);
+    player = new Player();
 }
 
 function draw() {
     background(70);
-    obj.render();
-    obj.turn(0.1);
-
+    player.render();
+    player.turn();
 }
-
-function keyPresses(){
-  if (keycode == RIGHT_ARROW) {
-    obj.turn(0.1);
-  } else if (keycode == LEFT_ARROW) {
-     obj.turn(-0.1);
+function keyReleased(){
+  player.setRotation(0);
+}
+function keyPressed() {
+  if (keyCode == RIGHT_ARROW) {
+    player.setRotation(0.1);
+  } else if (keyCode == LEFT_ARROW) {
+     player.setRotation(-0.1);
    }
 }
 
-function Obj() {
+function Player() {
   this.pos = createVector(width/2, height/2);
-  this.o = 10;
-  this.heading = 0 ;
+  this.r = 20;
+  this.heading = 0;
+  this.rotation = 0;
+
   this.render = function() {
     translate(this.pos.x, this.pos.y);
-    fill(255);
-    noStroke();
-    triangle(-this.o, this.o, this.o, this.o, 0, -this.o);
+    rotate(this.heading);
+    noFill();
+    stroke(255);
+    triangle(-this.r, this.r, this.r, this.r, 0, -this.r);
 };
-  this.turn = function(angle){
-    this.heading += angle;
+  this.setRotation = function(a){
+    this.rotation = a;
+  };
+
+  this.turn = function(){
+    this.heading += this.rotation;
   };
 }
