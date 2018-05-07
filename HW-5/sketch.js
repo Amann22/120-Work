@@ -43,3 +43,55 @@ text('MAKE ART',60,200);
 
 
 }
+
+
+
+
+//BOuncing ball
+
+var array= [50,10,1];
+var img;
+let ball = {};
+ball.width = array[0];
+ball.x = array[1];
+ball.y = array[1];
+ball.delta_x = array[2];
+ball.delta_y = array[2];
+ball.scale_x = array[2];
+ball.scale_y = array[2];
+function preload(){
+  img = loadImage('images/flame.jpg')
+}
+function setup() {
+    createCanvas(windowWidth, 400);
+    frameRate(50);
+}
+
+function draw() {
+  background(img);
+  display();
+  move();
+  bounce();
+    frameRate(50);
+  }
+
+
+function move () {
+  ball.x += ball.delta_x * ball.scale_x;
+  ball.y += ball.delta_y * ball.scale_y;
+}
+function bounce() {
+  if (ball.x >= width || ball.x <= 0) {
+      ball.delta_x = -1 * ball.delta_x;
+  }
+  if (ball.y >= height || ball.y <= 0) {
+      ball.delta_y = -1 * ball.delta_y;
+}
+}
+function display() {
+  fill( 'yellow' );
+  ellipse(ball.x, ball.y, ball.width, ball.width);
+  noStroke();
+  fill( 'red' );
+  ellipse(ball.x, ball.y, ball.width, ball.width);
+}
